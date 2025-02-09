@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Sainarasimhan_gosample_1739123699699-pr-trigger-input-set
+  identifier: Build_Sainarasimhan_gosample_1739123699699prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Testharness
+  pipeline:
+    identifier: Build_Sainarasimhan_gosample_1739123699699
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
